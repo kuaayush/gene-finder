@@ -1,4 +1,3 @@
-### Waner Zheng ### 
 import sys
 input_file = sys.argv[1] 
 
@@ -86,9 +85,9 @@ def Extract(three_mers):
 print("This program generates nested ORFs.")
 print("+3:" + str(len(Extract(three_mers_pos3))) + "; +2:" + str(len(Extract(three_mers_pos2))) + "; +1:" + str(len(Extract(three_mers_pos1))) + "; -1:" + str(len(Extract(three_mers_neg1))) + "; -2:" + str(len(Extract(three_mers_neg2))) + "; -3:" + str(len(Extract(three_mers_neg3))))
 
-### Write in homework2_output.txt with all possible genes of the 6 ORFs ###
+### Write in genes_output.txt with all possible genes of the 6 ORFs ###
     
-p_res = open("homework2_output.txt", "w")
+p_res = open("genes_output.txt", "w")
 
 ORF_genes = {
     '+3':Extract(three_mers_pos3),
