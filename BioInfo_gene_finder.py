@@ -1,5 +1,5 @@
 import sys
-input_file = sys.argv[1] 
+input_file = sys.argv[1] #read file
 
 ### Collect positive strand ###
 header = ''
